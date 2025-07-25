@@ -1,0 +1,7 @@
+{
+    "terminal.integrated.suggest.inlineSuggestion": "off",
+    "files.autoSave": "afterDelay",
+    "editor.inlineSuggest.enabled": false,
+    "editor.hover.enabled": false,
+    "editor.parameterHints.enabled": false
+}
