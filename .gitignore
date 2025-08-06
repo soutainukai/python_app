@@ -1,0 +1,5 @@
+ai_contact_form/.env
+
+# pythonキャッシュ
+**/__pycache__/
+**/*.pyc

@@ -3,7 +3,9 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-genai.configure(api_key=os.getenv("AIzaSyBy9nhLJ5_Bzj0NWPbTyd24DebRvwTtE5M"))
+api_key = os.getenv("GEMINI_API_KEY")
+
+genai.configure(api_key=api_key)
 
 def get_bot_response(user_input):
     model = genai.GenerativeModel("gemini-2.0-flash")
