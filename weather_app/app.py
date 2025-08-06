@@ -15,7 +15,6 @@ api_url = (
     f"&current_weather=true&timezone=auto"
 )
 
-# API呼び出し
 response = requests.get(api_url)
 
 if response.status_code == 200:
@@ -31,5 +30,5 @@ if response.status_code == 200:
     st.write(f"データ取得時刻: {datetime.fromisoformat(time)}")
 
 else:
-    st.error("天気データの取得に失敗しました。")
+    st.error("天気データの取得に失敗")
 
