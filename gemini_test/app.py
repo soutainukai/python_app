@@ -9,5 +9,5 @@ genai.configure(api_key=api_key)
 
 model = genai.GenerativeModel(model_name="gemini-2.0-flash")
 
-response = model.generate_content("なぜ空は青いの？")
+response = model.generate_content("実行テスト")
 print(response.text)
